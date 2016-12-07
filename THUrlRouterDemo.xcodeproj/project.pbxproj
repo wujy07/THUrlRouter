@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5936EF91DF80EF100D05E8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5936EF81DF80EF100D05E8D /* main.m */; };
+		F5936EFC1DF80EF100D05E8D /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5936EFB1DF80EF100D05E8D /* THAppDelegate.m */; };
+		F5936EFF1DF80EF100D05E8D /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5936EFE1DF80EF100D05E8D /* THViewController.m */; };
+		F5936F011DF80EF100D05E8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5936F001DF80EF100D05E8D /* Assets.xcassets */; };
+		F5936F041DF80EF100D05E8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5936F021DF80EF100D05E8D /* LaunchScreen.storyboard */; };
+		F5936F0F1DF80F9100D05E8D /* THUrlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5936F0E1DF80F9100D05E8D /* THUrlRouter.m */; };
+		F5936F1C1DF81C7800D05E8D /* THUrlRouterDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5936F1B1DF81C7800D05E8D /* THUrlRouterDemoTests.m */; };
+		F5936F251DF81CD200D05E8D /* THUrlRouterTestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5936F241DF81CD200D05E8D /* THUrlRouterTestsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5936F1E1DF81C7800D05E8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5936EEC1DF80EF100D05E8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5936EF31DF80EF100D05E8D;
+			remoteInfo = THUrlRouterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5936EF41DF80EF100D05E8D /* THUrlRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THUrlRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5936EF81DF80EF100D05E8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5936EFA1DF80EF100D05E8D /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		F5936EFB1DF80EF100D05E8D /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		F5936EFD1DF80EF100D05E8D /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		F5936EFE1DF80EF100D05E8D /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		F5936F001DF80EF100D05E8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5936F031DF80EF100D05E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5936F051DF80EF100D05E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5936F0D1DF80F9100D05E8D /* THUrlRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = THUrlRouter.h; path = THUrlRouter/THUrlRouter.h; sourceTree = "<group>"; };
+		F5936F0E1DF80F9100D05E8D /* THUrlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = THUrlRouter.m; path = THUrlRouter/THUrlRouter.m; sourceTree = "<group>"; };
+		F5936F191DF81C7800D05E8D /* THUrlRouterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = THUrlRouterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5936F1B1DF81C7800D05E8D /* THUrlRouterDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THUrlRouterDemoTests.m; sourceTree = "<group>"; };
+		F5936F1D1DF81C7800D05E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5936F231DF81CD200D05E8D /* THUrlRouterTestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THUrlRouterTestsViewController.h; sourceTree = "<group>"; };
+		F5936F241DF81CD200D05E8D /* THUrlRouterTestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THUrlRouterTestsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5936EF11DF80EF100D05E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5936F161DF81C7800D05E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5936EEB1DF80EF100D05E8D = {
+			isa = PBXGroup;
+			children = (
+				F5936EF61DF80EF100D05E8D /* THUrlRouterDemo */,
+				F5936F1A1DF81C7800D05E8D /* THUrlRouterDemoTests */,
+				F5936EF51DF80EF100D05E8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5936EF51DF80EF100D05E8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5936EF41DF80EF100D05E8D /* THUrlRouterDemo.app */,
+				F5936F191DF81C7800D05E8D /* THUrlRouterDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5936EF61DF80EF100D05E8D /* THUrlRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F5936F0C1DF80F2100D05E8D /* THUrlRouter */,
+				F5936EFA1DF80EF100D05E8D /* THAppDelegate.h */,
+				F5936EFB1DF80EF100D05E8D /* THAppDelegate.m */,
+				F5936EFD1DF80EF100D05E8D /* THViewController.h */,
+				F5936EFE1DF80EF100D05E8D /* THViewController.m */,
+				F5936EF71DF80EF100D05E8D /* Supporting Files */,
+			);
+			path = THUrlRouterDemo;
+			sourceTree = "<group>";
+		};
+		F5936EF71DF80EF100D05E8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5936F001DF80EF100D05E8D /* Assets.xcassets */,
+				F5936F021DF80EF100D05E8D /* LaunchScreen.storyboard */,
+				F5936F051DF80EF100D05E8D /* Info.plist */,
+				F5936EF81DF80EF100D05E8D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5936F0C1DF80F2100D05E8D /* THUrlRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F5936F0D1DF80F9100D05E8D /* THUrlRouter.h */,
+				F5936F0E1DF80F9100D05E8D /* THUrlRouter.m */,
+			);
+			name = THUrlRouter;
+			sourceTree = "<group>";
+		};
+		F5936F1A1DF81C7800D05E8D /* THUrlRouterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5936F231DF81CD200D05E8D /* THUrlRouterTestsViewController.h */,
+				F5936F241DF81CD200D05E8D /* THUrlRouterTestsViewController.m */,
+				F5936F1B1DF81C7800D05E8D /* THUrlRouterDemoTests.m */,
+				F5936F1D1DF81C7800D05E8D /* Info.plist */,
+			);
+			path = THUrlRouterDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5936EF31DF80EF100D05E8D /* THUrlRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5936F081DF80EF100D05E8D /* Build configuration list for PBXNativeTarget "THUrlRouterDemo" */;
+			buildPhases = (
+				F5936EF01DF80EF100D05E8D /* Sources */,
+				F5936EF11DF80EF100D05E8D /* Frameworks */,
+				F5936EF21DF80EF100D05E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THUrlRouterDemo;
+			productName = THUrlRouterDemo;
+			productReference = F5936EF41DF80EF100D05E8D /* THUrlRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5936F181DF81C7800D05E8D /* THUrlRouterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5936F201DF81C7800D05E8D /* Build configuration list for PBXNativeTarget "THUrlRouterDemoTests" */;
+			buildPhases = (
+				F5936F151DF81C7800D05E8D /* Sources */,
+				F5936F161DF81C7800D05E8D /* Frameworks */,
+				F5936F171DF81C7800D05E8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5936F1F1DF81C7800D05E8D /* PBXTargetDependency */,
+			);
+			name = THUrlRouterDemoTests;
+			productName = THUrlRouterDemoTests;
+			productReference = F5936F191DF81C7800D05E8D /* THUrlRouterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5936EEC1DF80EF100D05E8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = THU;
+				TargetAttributes = {
+					F5936EF31DF80EF100D05E8D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JPGD28C7PA;
+						ProvisioningStyle = Automatic;
+					};
+					F5936F181DF81C7800D05E8D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JPGD28C7PA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5936EF31DF80EF100D05E8D;
+					};
+				};
+			};
+			buildConfigurationList = F5936EEF1DF80EF100D05E8D /* Build configuration list for PBXProject "THUrlRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5936EEB1DF80EF100D05E8D;
+			productRefGroup = F5936EF51DF80EF100D05E8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5936EF31DF80EF100D05E8D /* THUrlRouterDemo */,
+				F5936F181DF81C7800D05E8D /* THUrlRouterDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5936EF21DF80EF100D05E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5936F011DF80EF100D05E8D /* Assets.xcassets in Resources */,
+				F5936F041DF80EF100D05E8D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5936F171DF81C7800D05E8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5936EF01DF80EF100D05E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5936F0F1DF80F9100D05E8D /* THUrlRouter.m in Sources */,
+				F5936EFF1DF80EF100D05E8D /* THViewController.m in Sources */,
+				F5936EFC1DF80EF100D05E8D /* THAppDelegate.m in Sources */,
+				F5936EF91DF80EF100D05E8D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5936F151DF81C7800D05E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5936F251DF81CD200D05E8D /* THUrlRouterTestsViewController.m in Sources */,
+				F5936F1C1DF81C7800D05E8D /* THUrlRouterDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5936F1F1DF81C7800D05E8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5936EF31DF80EF100D05E8D /* THUrlRouterDemo */;
+			targetProxy = F5936F1E1DF81C7800D05E8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5936F021DF80EF100D05E8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5936F031DF80EF100D05E8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5936F061DF80EF100D05E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5936F071DF80EF100D05E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5936F091DF80EF100D05E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPGD28C7PA;
+				INFOPLIST_FILE = THUrlRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsinghua.THUrlRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5936F0A1DF80EF100D05E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JPGD28C7PA;
+				INFOPLIST_FILE = THUrlRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsinghua.THUrlRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5936F211DF81C7800D05E8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JPGD28C7PA;
+				INFOPLIST_FILE = THUrlRouterDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsinghua.THUrlRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THUrlRouterDemo.app/THUrlRouterDemo";
+			};
+			name = Debug;
+		};
+		F5936F221DF81C7800D05E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JPGD28C7PA;
+				INFOPLIST_FILE = THUrlRouterDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tsinghua.THUrlRouterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/THUrlRouterDemo.app/THUrlRouterDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5936EEF1DF80EF100D05E8D /* Build configuration list for PBXProject "THUrlRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5936F061DF80EF100D05E8D /* Debug */,
+				F5936F071DF80EF100D05E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5936F081DF80EF100D05E8D /* Build configuration list for PBXNativeTarget "THUrlRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5936F091DF80EF100D05E8D /* Debug */,
+				F5936F0A1DF80EF100D05E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5936F201DF81C7800D05E8D /* Build configuration list for PBXNativeTarget "THUrlRouterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5936F211DF81C7800D05E8D /* Debug */,
+				F5936F221DF81C7800D05E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5936EEC1DF80EF100D05E8D /* Project object */;
+}
